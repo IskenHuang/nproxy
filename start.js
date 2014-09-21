@@ -1,9 +1,12 @@
 var nproxy = require('./');
 
-var options = {
+nproxy({
   timeout: 10,
-  debug: true
-}
-
-var port = 8989;
-nproxy(port, options );
+  debug: false,
+  rule: [
+    {
+      pattern: '(.*).js',      // Match url you wanna replace
+      responder: '/Users/isken/projects/nproxy/test-script.js'
+    },
+  ]
+});

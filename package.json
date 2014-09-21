@@ -1,8 +1,8 @@
 {
-  "name": "nproxy",
-  "author": "Goddy Zhao <goddy128@gmail.com> (http://goddyzhao.me)",
+  "name": "gulp-nproxy",
+  "author": "Isken Huang",
   "version": "1.4.3",
-  "description": "A cli proxy tool specialized in file replacing",
+  "description": "A cli/gulp-plugin proxy tool specialized in file replacing. fork from Goddy Zhao <goddy128@gmail.com> nproxy",
   "dependencies": {
     "connect": "2.9.1",
     "commander": "*",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/goddyZhao/nproxy.git"
+    "url": "https://github.com/IskenHuang/nproxy.git"
   },
   "keywords": [
     "node.js",
