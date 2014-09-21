@@ -46,6 +46,7 @@ nproxy({
 ```
 
 ## Template of Replace Rule
+```
 [
       // 1. replace single file with local one
       {
@@ -106,7 +107,7 @@ nproxy({
         responder: '/home/$1/image/'
       }
 ];
-
+```
 
 ## License
 
